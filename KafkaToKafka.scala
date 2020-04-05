@@ -24,7 +24,7 @@ object KafkaToKafka {
       .option("kafka.bootstrap.servers", "localhost:9092")
       .option("subscribe", "test")
       .option("startingOffsets", "latest")
-      .option("group.id", "test-sling1")
+      .option("group.id", "test-1")
       .load()
 
     val result_R = dfInput
