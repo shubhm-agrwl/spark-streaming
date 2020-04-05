@@ -1,0 +1,1 @@
+create table testDF (`msgId` VARCHAR(100) PRIMARY KEY, `eventTimeStamp` Long);
